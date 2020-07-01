@@ -15,13 +15,13 @@ steghide extract -sf ctf_updated_photo.jpg
 ## Step 2: Solving the ciphered output
 it is a caeser cipher with a 7 digit shift
 <img src="./screenshots/cipher.png">
-### Step 3 : visiting the link and downloading the file in it
+## Step 3 : visiting the link and downloading the file in it
 <img src="./screenshots/link.png">
-### Step 4 : finding the username and password of the bin file
+## Step 4 : finding the username and password of the bin file
 Strings is a command which is used to print string literals from binary executables
 <img src="./screenshots/strings.png">
-> **as you can see there are two entries in the output which ends with "==" sign**
-> **"==" denotes base64 cipher**\
+>**as you can see there are two entries in the output which ends with "==" sign**
+>**"==" denotes base64 cipher**\
 ##### username
 <img src="./screenshots/base64username.png">
 ##### password
