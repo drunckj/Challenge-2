@@ -6,12 +6,13 @@ A basic level ctf challenge for beginners
 - hint: the end is when u get a  message called "Welcome Hacker (followed by a username u have to find) "
 # STEPS TO SOLVE:
 ## Step 1: Steghide 
-the answer of the riddle is seven. seven is the key with which we hid the data inside the image
-we can extract data from the image by 
+the answer of the riddle is seven. seven is the key with which we hid the data inside the image.
+We can extract data from the image by 
 ```
 steghide extract -sf ctf_updated_photo.jpg
 ```
 <img src="./screenshots/steghide.png">
+
 ## Step 2: Solving the ciphered output
 it is a caeser cipher with a 7 digit shift
 <img src="./screenshots/cipher.png">
@@ -22,9 +23,9 @@ Strings is a command which is used to print string literals from binary executab
 <img src="./screenshots/strings.png">
 >**as you can see there are two entries in the output which ends with "==" sign**
 >**"==" denotes base64 cipher**\
-##### username
+### username
 <img src="./screenshots/base64username.png">
-##### password
+### password
 <img src="./screenshots/base64password.png">
 ### Step 5: executing the bin file with the credentials
 <img src="./screenshots/final.png">
